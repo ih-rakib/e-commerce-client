@@ -29,6 +29,13 @@ const Navbar = () => {
 
   // dropdown: admin
   const adminDropdown = [
+    { label: "Shop", path: "/shop" },
+    { label: "Connect", path: "/contact" },
+    {
+      label: "Projects",
+      path: "https://github.com/ih-rakib/Profile/blob/master/Projects/Readme.md",
+    },
+    { label: "Dashboard", path: "/dashboard/admin" },
     { label: "Dashboard", path: "/dashboard/admin" },
     { label: "Manage Products", path: "/dashboard/manage-products" },
     { label: "Manage Orders", path: "/dashboard/manage-orders" },
@@ -38,6 +45,12 @@ const Navbar = () => {
 
   // dropdown: user
   const userDropdown = [
+    { label: "Shop", path: "/shop" },
+    { label: "Connect", path: "/contact" },
+    {
+      label: "Projects",
+      path: "https://github.com/ih-rakib/Profile/blob/master/Projects/Readme.md",
+    },
     { label: "Dashboard", path: "/dashboard" },
     { label: "Profile", path: "/dashboard/profile" },
     { label: "Payments", path: "/dashboard/payments" },
