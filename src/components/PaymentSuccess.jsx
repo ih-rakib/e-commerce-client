@@ -89,7 +89,7 @@ const PaymentSuccess = () => {
   ];
 
   return (
-    <div className="mt-[200px]">
+    <div className="mt-[300px]">
       <section className="section__container rounded p-6">
         <h2 className="text-2xl font-semibold mb-4">
           Payment: {order?.status}
