@@ -16,7 +16,7 @@ const UserOrders = () => {
   if (error) return <div>No Orders Available</div>;
 
   return (
-    <section className="py-1 bg-blueGray-50 mt-[200px]">
+    <section className="py-1 bg-blueGray-50">
       <div className="w-full xl:w-8/12 mb-12 xl:mb-0 px-4 mx-auto">
         <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded ">
           <div className="rounded-t mb-0 px-4 py-3 border-0">
@@ -115,25 +115,8 @@ const UserOrders = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-6/12 px-4 mx-auto text-center">
-              <div className="text-sm text-blueGray-500 font-semibold py-1">
-                Made with{" "}
-                <a
-                  href="https://www.creative-tim.com/product/notus-js"
-                  className="text-blueGray-500 hover:text-gray-800"
-                  target="_blank"
-                >
-                  Notus JS
-                </a>{" "}
-                by{" "}
-                <a
-                  href="https://www.creative-tim.com"
-                  className="text-blueGray-500 hover:text-blueGray-800"
-                  target="_blank"
-                >
-                  {" "}
-                  Creative Tim
-                </a>
-                .
+              <div className="text-sm text-gray-700 font-semibold py-1">
+                Made with <strong>stress</strong> by Ikramul Hasan Rakib
               </div>
             </div>
           </div>
