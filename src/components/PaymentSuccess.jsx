@@ -89,9 +89,9 @@ const PaymentSuccess = () => {
   ];
 
   return (
-    <div className="mt-[300px]">
+    <div className="">
       <section className="section__container rounded p-6">
-        <h2 className="text-2xl font-semibold mb-4">
+        <h2 className="text-2xl font-semibold mb-4 mt-[200px]">
           Payment: {order?.status}
         </h2>
         <p className="mb-4">Order id: {order?.orderId}</p>
