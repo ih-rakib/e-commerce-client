@@ -36,7 +36,6 @@ const Navbar = () => {
       path: "https://github.com/ih-rakib/Profile/blob/master/Projects/Readme.md",
     },
     { label: "Dashboard", path: "/dashboard/admin" },
-    { label: "Dashboard", path: "/dashboard/admin" },
     { label: "Manage Products", path: "/dashboard/manage-products" },
     { label: "Manage Orders", path: "/dashboard/manage-orders" },
     { label: "Manage Users", path: "/dashboard/users" },
