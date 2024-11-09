@@ -89,26 +89,30 @@ const PaymentSuccess = () => {
   ];
 
   return (
-    <section className="section__container rounded p-6">
-      <h2 className="text-2xl font-semibold mb-4">Payment {order?.status}</h2>
-      <p className="mb-4">Order id: {order?.orderId}</p>
-      <p className="mb-8">Status: {order?.status}</p>
+    <div className="mt-[200px]">
+      <section className="section__container rounded p-6">
+        <h2 className="text-2xl font-semibold mb-4">
+          Payment: {order?.status}
+        </h2>
+        <p className="mb-4">Order id: {order?.orderId}</p>
+        <p className="mb-8">Status: {order?.status}</p>
 
-      <ol className="sm:flex items-center relative">
-        {steps.map((step, index) => (
-          <TimeLineSteps
-            key={index}
-            step={step}
-            isCompleted={isCompleted(step.status)}
-            isCurrent={isCurrent(step.status)}
-            isLastStep={index === steps.length - 1}
-            icon={step.icon}
-            description={step.description}
-            order={order}
-          ></TimeLineSteps>
-        ))}
-      </ol>
-    </section>
+        <ol className="sm:flex items-center relative">
+          {steps.map((step, index) => (
+            <TimeLineSteps
+              key={index}
+              step={step}
+              isCompleted={isCompleted(step.status)}
+              isCurrent={isCurrent(step.status)}
+              isLastStep={index === steps.length - 1}
+              icon={step.icon}
+              description={step.description}
+              order={order}
+            ></TimeLineSteps>
+          ))}
+        </ol>
+      </section>
+    </div>
   );
 };
 

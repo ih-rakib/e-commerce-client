@@ -27,21 +27,23 @@ const SingleProduct = () => {
 
   return (
     <>
-      <section className="section__container bg-primary-light">
-        <h2 className="section__header uppercase">Single Product</h2>
+      <div className="mt-[110px]">
+        <section className="section__container bg-primary-light">
+          <h2 className="section__header uppercase">Single Product</h2>
 
-        <div className="section__subheader space-x-2">
-          <span className="hover:text-primary">
-            <Link to="/">home</Link>
-          </span>
-          <i className="ri-arrow-right-s-line"></i>
-          <span className="hover:text-primary">
-            <Link to="/shop">shop</Link>
-          </span>
-          <i className="ri-arrow-right-s-line"></i>
-          <span className="hover:text-primary">{singleProduct?.name}</span>
-        </div>
-      </section>
+          <div className="section__subheader space-x-2">
+            <span className="hover:text-primary">
+              <Link to="/">home</Link>
+            </span>
+            <i className="ri-arrow-right-s-line"></i>
+            <span className="hover:text-primary">
+              <Link to="/shop">shop</Link>
+            </span>
+            <i className="ri-arrow-right-s-line"></i>
+            <span className="hover:text-primary">{singleProduct?.name}</span>
+          </div>
+        </section>
+      </div>
 
       <section className="section__container mt-8">
         <div className="flex flex-col items-center md:flex-row gap-8">

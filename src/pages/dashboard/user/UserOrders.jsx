@@ -13,10 +13,10 @@ const UserOrders = () => {
   const orders = orderData?.orders;
   if (isLoading)
     return <div className="text-center text-gray-500">Loading...</div>;
-  if (error) return <div>No Oreders Available</div>;
+  if (error) return <div>No Orders Available</div>;
 
   return (
-    <section className="py-1 bg-blueGray-50">
+    <section className="py-1 bg-blueGray-50 mt-[200px]">
       <div className="w-full xl:w-8/12 mb-12 xl:mb-0 px-4 mx-auto">
         <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded ">
           <div className="rounded-t mb-0 px-4 py-3 border-0">

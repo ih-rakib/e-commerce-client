@@ -77,7 +77,7 @@ const Shop = () => {
 
   return (
     <>
-      <div className="mt-[100px]">
+      <div className="mt-[110px]">
         <section className="section__container bg-primary-light">
           <h2 className="section__header uppercase">Shop Page</h2>
           <p className="section__subheader">
